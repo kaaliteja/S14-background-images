@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page</title>
+</head>
+<style>
+  body{
+    background-color: darkorchid;
+  }
+
+    .bgDiv{
+      width: 300px;
+      height: 400px;
+      background-color: lightgreen;
+      display: inline-block;
+      border: 15px solid coral;
+      background-image: url(./images/dharmachakra\ ashoka\ 1.jpg);
+      background-repeat: no-repeat;
+      margin: 30px;
+
+    }
+     
+    #borderBox{
+        background-origin:border-box;
+    }
+    #paddingBox{
+        background-origin: padding-box;
+    }
+    #contentBox{
+        background-origin: content-box;
+    }
+   
+   h1{
+    background-color: lightgreen;
+    background-image: url(./images/dharmachakra\ ashoka\ 1.jpg);
+    background-repeat: no-repeat;
+    padding: 50px;
+    width: 200px;
+    height: 200px;
+    border: 15px solid coral;
+
+   }
+   div{
+    border: 10px dashed darkblue;
+    padding: 40px;
+    margin-bottom: 30px;
+    background-color: chocolate;
+
+   }
+
+   #p1{
+    background-clip: border-box;
+   }
+   
+   #p2{
+   background-clip: padding-box;
+   }
+
+   #p3{
+   background-clip: content-box;
+   }
+</style>
+<body>
+
+   <div id="borderBox" class="bgDiv"></div>
+   <div id="paddingBox" class="bgDiv"></div>
+   <h1 id="contentBox">Bharat</h1>
+   <hr>
+   <div id="p1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias cumque nobis aliquid pariatur quas. Voluptas temporibus rem aliquid molestiae reprehenderit, esse aperiam libero quidem vel at, beatae, vitae blanditiis ex!</p>
+    </div>
+    <div id="p2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias cumque nobis aliquid pariatur quas. Voluptas temporibus rem aliquid molestiae reprehenderit, esse aperiam libero quidem vel at, beatae, vitae blanditiis ex!</p>
+    </div >
+    <div id="p3">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias cumque nobis aliquid pariatur quas. Voluptas temporibus rem aliquid molestiae reprehenderit, esse aperiam libero quidem vel at, beatae, vitae blanditiis ex!</p>
+    </div>
+             
+</body>
+</html>

@@ -1,0 +1,58 @@
+.trophyPic{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px black
+  }
+  
+  
+  .trophyDiv{
+    width:300px ;
+    height: 600px ;
+    display: inline-block;
+    border: 10px solid darkmagenta;
+    margin: 50px;
+    text-align: center;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px black;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: 200px 200px  ;
+    background-color: darkblue;
+}
+
+.trophyDiv p{
+       text-align: justify;
+       color: greenyellow;
+}
+.trophyDiv h2{
+    color: whitesmoke;
+    
+}
+
+
+
+#odi{
+    background-image: url("./images/ODI_logo-removebg-preview.png"); 
+    background-size: 400px 300px;
+}
+
+#t20{  
+    background-image: url("./images/T20_logo-removebg-preview.png");
+}
+
+#test{
+    background-image: url("./images/Test_logo-removebg-preview.png");
+}
+
+ 
+body{
+   background-color:darkmagenta;
+   background-image:url("./images/babar-removebg-preview.png"), url("./images/powell-removebg-preview.png"), url("./images/kane_Williamson-removebg-preview.png"), url("./images/markram-removebg-preview.png"), url("./images/pat_cummins-removebg-preview.png"), url("./images/buttler-removebg-preview.png"), url("./images/Rohit_sharma-removebg-preview.png"), url("./images/hasaranga-removebg-preview.png"),  url("./images/icc-removebg-preview.png");
+   background-repeat: no-repeat;
+   background-position: left bottom, left center, left top, center top, right top, right center, right bottom, center bottom, center center;
+   background-attachment: fixed;
+}
+   
+
